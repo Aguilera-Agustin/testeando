@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
 
   const hacerPeticion = () =>{
-    fetch('https://services.galeno.com.ar/mobile-rest-services-test/obtenerPdfCartilla/CEA') .then(e=>{console.log(e)})
+    fetch('https://services.galeno.com.ar/mobile-rest-services-test/obtenerPdfCartilla/CEA') 
+    .then(e=>{console.log(e)})
   }
 
   return (
